@@ -1,0 +1,25 @@
+{
+  "name": "prova_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-dev":"sass --watch src/scss:assets/css",
+    "sass-prod":"sass --no-source-map --style=compressed"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sciug/prova_01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sciug/prova_01/issues"
+  },
+  "homepage": "https://github.com/sciug/prova_01#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}
